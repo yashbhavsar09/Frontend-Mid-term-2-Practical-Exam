@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 15px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 75%;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+.fail {
+    background-color: #ffcccc;
+    color: red;
+}
+
+#summary {
+    margin-top: 20px;
+    font-size: 16px;
+}
